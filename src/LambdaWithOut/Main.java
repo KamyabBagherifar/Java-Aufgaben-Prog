@@ -1,6 +1,6 @@
 package LambdaWithOut;
 
-import UML2.B;
+
 
 import java.util.LinkedList;
 import java.util.List;
