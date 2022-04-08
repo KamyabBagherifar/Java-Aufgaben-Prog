@@ -12,30 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 
-/**
- * ## Primzahlen mit Lambdas bestimmen (und ausgeben)
- * <p>
- * Entwickeln Sie nun bitte mehrere Lambda-Funktionen und machen Sie diese
- * in `public static` Datenfeldern außerhalb der `main()`-Methode
- * für die Auto-Evaluierung bekannt.
- * <p>
- * - `isPrim` (bestimmt eine Primzahl)
- * - `primes` (liefert eine Liste aller Primzahlen bis zu einer oberen Schranke, exklusiv)
- * <p>
- * Aufrufbeispiele finden Sie in der `main()`-Methode.
- * <p>
- * __Hinweise:__
- * <p>
- * - https://de.wikipedia.org/wiki/Primzahl
- * - Nutzen Sie jeweils den konkretesten Lambda Typ
- * (also bspw. `Predicate<String>` anstatt `Function<String, Boolean>`).
- * - Achten Sie darauf, dass Sie Streams limitieren (ansonsten haben Sie Endlosberechnungen).
- * <p>
- * __Verbote:__
- * <p>
- * - Es sind nur Lambda Funktionen erlaubt, keine Methoden (bis auf die `main()`).
- * - Es sind keine Schleifen oder bedingten Anweisungen erlaubt.
- */
+
 class Main {
 
     public static void main(String[] args) {
